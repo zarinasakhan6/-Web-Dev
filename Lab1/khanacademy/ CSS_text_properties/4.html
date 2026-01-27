@@ -4,70 +4,90 @@
         <meta charset="utf-8">
         <title>Project: Blog</title>
         <style>
-            body {
-                font-family: Georgia, serif;
-                line-height: 1.6;
-                background-color: #f9f9f9;
-                padding: 20px;
-            }
+        body {
+            font-family: "Georgia", serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
 
-            h1 {
-                font-family: Arial, sans-serif;
-                text-align: center;
-                color: #333;
-            }
+        h1 {
+            font-family: "Arial", sans-serif;
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color:pink;
+        }
 
-            h2 {
-                color: #2c3e50;
-            }
+        h3 {
+            font-family: "Arial", sans-serif;
+            font-size: 22px;
+            text-decoration: underline;
+        }
 
-            h6 {
-                font-style: italic;
-                color: gray;
-            }
+        ul {
+            font-size: 18px;
+        }
 
-            ul {
-                background-color: #ffffff;
-                padding: 15px;
-                border-radius: 8px;
-            }
+        li {
+            margin-bottom: 10px;
+        }
 
-            a {
-                text-decoration: none;
-                color: #1e90ff;
-                font-weight: bold;
-            }
+        .post {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
 
-            a:hover {
-                text-decoration: underline;
-            }
+        .date {
+            font-style: italic;
+            font-size: 14px;
+            color: #666;
+        }
 
-            .post {
-                background-color: #ffffff;
-                padding: 15px;
-                margin-top: 20px;
-                border-radius: 8px;
-            }
+        .post h2 {
+            font-family: "Arial", sans-serif;
+            font-size: 28px;
+            margin-bottom: 5px;
+            color:pink;
+        }
 
-            p {
-                font-size: 16px;
-            }
-        </style>
-    </head>
-    <body>
-        
-        <h1>Zari's blog</h1>
+        .post p {
+            font-size: 16px;
+            margin-top: 10px;
+            
+        }
+        a{
+            color:grey;
+        }
+    </style>
+</head>
+<body>
 
-        <h3>Contents</h3>
-        <ul>
-            <li>First post!</li>
-        </ul>
-        
+    <h1>Zari's Blog</h1>
+
+    <h3>Contents</h3>
+    <ul>
+        <li><a href="#post1">First post!</a></li>
+        <li><a href="#post2">Second post!</a></li>
+    </ul>
+
+    <div class="post" id="post1">
         <h2>First post</h2>
-        <h6>Posted on some date in some year</h6>
-        
-        <p>Something excited happened.</p>
-        
-        
+        <img src="/Users/zarina/Desktop/kbtu/web-dev/Lab1/src/trip.jpg" alt="Egypt">
+        <p>TA sin to not dedicate post to the trip. It was such a wonderful experience, it’s the beginning of my long journey, looking forward to the next one! 👀</p>
+        <h6 class="date">Posted on September 24, 2024</h6>
+    </div>
+
+    <div class="post" id="post2">
+        <h2>Second post</h2>
+        <img src="/Users/zarina/Desktop/kbtu/web-dev/Lab1/src/march.jpg" alt="March">
+        <p>March dump, the month that has brought as warmth as happiness🌷</p>
+        <h6 class="date">Posted on January 27, 2024</h6>
+    </div>
     </body>
 </html>
