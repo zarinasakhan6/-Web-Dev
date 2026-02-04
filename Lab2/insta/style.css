@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    padding: 24px 40px;
+}
+.main{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    gap:120px;
+    padding-bottom: 40px;
+}
+.left{
+    max-width: 650px;
+}
+.left h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+.colorful {
+    background: linear-gradient(45deg, #ff7a00, #ff0069, #d300c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.mainphoto {
+    margin-top: 40px;
+}
+.right{
+    margin-top: -150px;
+    width: 600px;
+}
+.login {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.login p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+input {
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #b2dffc;
+}
+button {
+    padding: 12px;
+    border-radius: 999px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.logbtn {
+    background-color: #4f8ef7;
+    color: white;
+    font-weight: 600;
+    margin-top: 8px;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.forgotbtn {
+    background: none;
+    color: #262626;
+    font-weight: 500;
+}
+.forgotbtn:hover{
+    background: #f0f2f5;
+   
+}
+.remaining {
+    margin-top: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.remaining button {
+    width: 100%;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+.remaining button:hover{
+    background: #f0f2f5;
+}
+.facebookbtn1{border: 1px solid #f0f2f5 ;}
+.facebookbtn2{border: 1px solid #4f8ef7; color:#4f8ef7;}
+.facebook {
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.meta-row {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.meta-row img {
+    width: 25px;
+}
+
+.meta-row span {
+    font-size: 20px;
+}
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    color: gray;
+    text-decoration: None;
+    font-size: 12px;
+    text-align: center;
+}
+.footer a{
+    color: gray;
+    text-decoration: None;
+    margin: 8px;
+    font-size: 12px;
+}
+.footer-links {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
