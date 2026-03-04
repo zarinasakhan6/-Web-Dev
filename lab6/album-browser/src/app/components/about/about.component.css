@@ -1,0 +1,49 @@
+.about-container {
+  padding: 3rem 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #e94560;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-card {
+  background: #0f3460;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-card h2 {
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.about-card p {
+  color: #a8a8b3;
+  line-height: 1.7;
+}
+
+.about-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-card ul li {
+  color: #a8a8b3;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.about-card ul li:last-child {
+  border-bottom: none;
+}
+
+.about-card ul li strong {
+  color: #e0e0e0;
+}
